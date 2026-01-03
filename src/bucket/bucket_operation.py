@@ -55,6 +55,6 @@ def upload_csv_to_s3(local_file, bucket_name, s3_key):
 if __name__ == "__main__":
     list_buckets()
     upload_csv_to_s3(
-        local_file="data/emp.csv", bucket_name="beeru-bucket", s3_key="incoming/emp.csv"
+        local_file="./src/bucket/data/emp.csv", bucket_name="beeru-bucket", s3_key="incoming/emp.csv"
     )
     bucket_contents()
