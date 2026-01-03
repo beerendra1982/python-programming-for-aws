@@ -1,0 +1,10 @@
+.terraform/
+.terraform.lock.hcl
+.vscode/
+__pycache__/
+*.pyc
+.env
+.env.*
+coverage.xml
+htmlcov/
+.pytest_cache/  
